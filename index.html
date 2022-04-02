@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <script>
-        function loading() {
+        function loadAvatar() {
             document.getElementsByClassName('avatar')[0].style.display = 'block';
-            document.getElementsByClassName('loading')[0].style.display = 'none';
+            document.getElementsByClassName('loading-avatar')[0].style.display = 'none';
         }
     </script>
 </head>
@@ -64,7 +64,7 @@
             <!-- 个人肖像 -->
             <section class="me">
                 <section class="portrait">
-                    <div class="loading">
+                    <div class="loading-avatar">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -72,7 +72,7 @@
                         <span></span>
                     </div>
                     <!-- 头像照片 -->
-                    <img class="avatar" src="assets/images/avatar.jpg" onload="loading()">
+                    <img class="avatar" src="assets/images/avatar.jpg" onload="loadAvatar()">
                 </section>
 
                 <h1 class="name">张大侠</h1>
