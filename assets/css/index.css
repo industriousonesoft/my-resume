@@ -131,6 +131,10 @@ body {
         margin: 0; }
       .container .main .info-unit ul li .info-content .fa {
         font-size: 1em; }
+  .container .main .info-unit .app-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px; }
 
 /* -------------------------------------------------
  * 文档底部
